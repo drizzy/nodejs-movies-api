@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-movies-api",
+  "version": "1.0.0",
+  "description": "MOVIES REST API - Developed with NodeJs and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start:prod": "babel-node server.js",
+    "start:dev": "nodemon --exec babel-node server.js"
+  },
+  "author": "Drizzy",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.3",
+    "nodemailer": "^6.7.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/morgan": "^1.9.3",
+    "@types/nodemailer": "^6.4.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
